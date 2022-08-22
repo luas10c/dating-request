@@ -1,0 +1,10 @@
+# node_modules
+node_modules
+
+# next.js files
+.next
+
+# common files
+yarn.lock
+*.log
+*.error
