@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+
+  --container-8xl: 88rem;
+
+  --color-woodsmoke-50: #E7E7E9;
+  --color-woodsmoke-100: #DADADC;
+  --color-woodsmoke-200: #C3C3C6;
+  --color-woodsmoke-300: #A8A8AD;
+  --color-woodsmoke-400: #919197;
+  --color-woodsmoke-500: #797981;
+  --color-woodsmoke-600: #616166;
+  --color-woodsmoke-700: #4A4A4F;
+  --color-woodsmoke-800: #343437;
+  --color-woodsmoke-900: #1E1E1F;
+  --color-woodsmoke-950: #111112;
+
+  --color-watermelon-50: #fff1f2;
+  --color-watermelon-100: #ffe4e7;
+  --color-watermelon-200: #ffccd3;
+  --color-watermelon-300: #fea3b0;
+  --color-watermelon-400: #fd5974;
+  --color-watermelon-500: #f73c60;
+  --color-watermelon-600: #e41a4a;
+  --color-watermelon-700: #c10f3f;
+  --color-watermelon-800: #a1103b;
+  --color-watermelon-900: #8a1138;
+  --color-watermelon-950: #4d0419;
+
+  --color-rose-50: #fef1f7;
+  --color-rose-100: #fde6f0;
+  --color-rose-200: #fecce2;
+  --color-rose-300: #ffa2c9;
+  --color-rose-400: #fd69a5;
+  --color-rose-500: #f7327d;
+  --color-rose-600: #e81a5f;
+  --color-rose-700: #ca0c45;
+  --color-rose-800: #a60e3a;
+  --color-rose-900: #8a1134;
+  --color-rose-950: #55021a;
+}
+
+body {
+  @apply antialiased bg-woodsmoke-950 text-woodsmoke-50 min-h-screen;
+}
